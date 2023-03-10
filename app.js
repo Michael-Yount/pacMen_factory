@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-<SCRIPT>
-    var pos = 0;
+"use strict";
+
+var pos = 0;
     const pacArray = [
         ['PacMan1.png', 'PacMan2.png'],
         ['PacMan3.png', 'PacMan4.png']
@@ -23,7 +14,7 @@
             y: Math.random() * scale
         }
     }
-    // Factory to make a PacMan 
+    // This is the pacman maker 
     function makePac() {
         // returns an object with values scaled {x: 33, y: 21}
         let velocity = setToRandom(10);
@@ -68,18 +59,3 @@
     function makeOne() {
         pacMen.push(makePac()); // add a new PacMan
     }
-</SCRIPT>
-
-
-    
-
-
-
-    <div id='game'>
-        <button onclick='makeOne()' width='200' height='30'>Add PacMan</button>
-        <button onclick='update()' width='200' height='30'>Start Game</button>
-
-    </div>
-</body>
-
-</html>
