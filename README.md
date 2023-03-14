@@ -6,3 +6,5 @@ Here is a link to the github pages website. https://michael-yount.github.io/pacM
 
 In the future I will add change direction on collide functionality.
 In the future I will add different sizes and colors of Pac-Men.
+
+MIT license and copyright.
