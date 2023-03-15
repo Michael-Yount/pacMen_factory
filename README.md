@@ -1,6 +1,6 @@
-# pacMen_factory
+## pacMen_factory
 
-This is an MIT project that I am styling and making a little more fun. 
+###This is an MIT project that I am styling and making a little more fun. 
 
 Here is a link to the github pages website. https://michael-yount.github.io/pacMen_factory/
 
